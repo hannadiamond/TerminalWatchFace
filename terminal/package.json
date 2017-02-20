@@ -1,0 +1,52 @@
+{
+    "author": "Hanna Diggins (Industrial Illusions)",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "terminal",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "Terminal",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "BackgroundColor",
+            "TextColor",
+            "DisconnectVibrate",
+            "Date",
+            "ComputerType"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Mac Terminal",
+                    "name": "MacTerminal_Image",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/WinTerminal",
+                    "name": "WindowsTerminal_Image",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "40a51763-500a-48d7-a44c-826351ac5b0a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "3.0.0"
+}
