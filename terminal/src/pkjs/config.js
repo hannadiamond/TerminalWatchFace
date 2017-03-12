@@ -5,7 +5,7 @@ module.exports = [
   },
   {
     "type": "text",
-    "defaultValue": "Here is some introductory text."
+    "defaultValue": "Terminal Settings."
   },
   {
     "type": "section",
